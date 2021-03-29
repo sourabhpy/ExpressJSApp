@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const hbs = require('hbs');
-const port = 8000;
+const port = process.env.PORT || 8000; // Modified port for heroku deployment
 
 // For using static path (inside public directory)
 const staticPath = path.join(__dirname, "../public");
