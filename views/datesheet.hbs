@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head}}
+    <title>Datesheet</title>
+</head>
+<body class>
+    {{>navbar}}
+    {{>heading}}
+    <div class="main-content">
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                <th scope="col">Sr. No.</th>
+                <th scope="col">Subject</th>
+                <th scope="col">Date</th>
+                <th scope="col">Exam Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>{{ subject1 }}</td>
+                <td>{{ date1 }}</td>
+                <td>{{ type1 }}</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>{{ subject2 }}</td>
+                <td>{{ date2 }}</td>
+                <td>{{ type2 }}</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td>{{ subject3 }}</td>
+                <td>{{ date3 }}</td>
+                <td>{{ type3 }}</td>
+                </tr>
+                <th scope="row">4</th>
+                <td>{{ subject4 }}</td>
+                <td>{{ date4 }}</td>
+                <td>{{ type4 }}</td>
+                </tr>
+                <th scope="row">5</th>
+                <td>{{ subject5 }}</td>
+                <td>{{ date5 }}</td>
+                <td>{{ type5 }}</td>
+                </tr>
+                <th scope="row">6</th>
+                <td>{{ subject6 }}</td>
+                <td>{{ date6 }}</td>
+                <td>{{ type6 }}</td>
+                </tr>
+                <th scope="row">7</th>
+                <td>{{ subject7 }}</td>
+                <td>{{ date7 }}</td>
+                <td>{{ type7 }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    {{>imagecontent}}
+{{>footer}}
+
+</body>
+</html>

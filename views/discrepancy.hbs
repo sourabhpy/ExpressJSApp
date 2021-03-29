@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>head}}
+    <title>Discrepancy</title>
+</head>
+<body class>
+    {{>navbar}}
+    {{>heading}}
+    <div class="main-content">
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                <th scope="col">Sr. No.</th>
+                <th scope="col">Exam</th>
+                <th scope="col">Q. No.</th>
+                <th scope="col">Discrepancies</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>{{ exam1 }}</td>
+                <td>{{ q1 }}</td>
+                <td>{{ disc1 }}</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>{{ exam2 }}</td>
+                <td>{{ q2 }}</td>
+                <td>{{ disc2 }}</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td>{{ exam3 }}</td>
+                <td>{{ q3 }}</td>
+                <td>{{ disc3 }}</td>
+                </tr>
+                <tr>
+                <th scope="row">4</th>
+                <td>{{ exam4 }}</td>
+                <td>{{ q4 }}</td>
+                <td>{{ disc4 }}</td>
+                </tr>
+                <tr>
+                <th scope="row">5</th>
+                <td>{{ exam5 }}</td>
+                <td>{{ q5 }}</td>
+                <td>{{ disc5 }}</td>
+                </tr>
+                <tr>
+                <th scope="row">6</th>
+                <td>{{ exam6 }}</td>
+                <td>{{ q6 }}</td>
+                <td>{{ disc6 }}</td>
+                </tr>
+                <tr>
+                <th scope="row">7</th>
+                <td>{{ exam7 }}</td>
+                <td>{{ q7 }}</td>
+                <td>{{ disc7 }}</td>
+                </tr>
+            </tbody> 
+        </table>
+    </div>
+    {{>imagecontent}}
+{{>footer}}
+
+</body>
+</html>
